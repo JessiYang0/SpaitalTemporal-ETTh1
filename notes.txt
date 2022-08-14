@@ -1,0 +1,18 @@
+LSTM
+Conv2D in Token embedding
+conv dilation # size=(dilation-1)*(kernel_size-1) + kernel_size
+------
+
+- data: weekend
+  add to embedding
+
+embedding module: only apply dropout on time feature embedding
+
+1. increasing kern. size on en/decoder conv1D
+2. dilation.
+
+--
+plot loss and predict
+--
+Res on attn - https://arxiv.org/pdf/2012.11747.pdf
+conv2D encoder
